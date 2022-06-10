@@ -1,5 +1,5 @@
 
-## 1.  terminal commands
+## 1.  Terminal Commands
 ```
 
 * touch -> creates file
@@ -130,6 +130,16 @@ permissions
     => chown
     chown user file/dir (-R)
     chgrp user file/dir (-R)
+    
+    
+````
+# Docker
+````
+1. docker images -> shows all images
+2. docker ps -> shows all working containers
+3. docker ps -a -> shows all containers
+4. docker rm {container_id} -> remove container by its' id
+5. docker rmi {image_id} -> remove image by its' id
     
     
 ````
