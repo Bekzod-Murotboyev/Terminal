@@ -139,8 +139,10 @@ permissions
 2. docker ps -> shows all working containers
 3. docker ps -a -> shows all containers
 4. docker rm {container_id} -> remove container by its' id
-5. docker rmi {image_id} -> remove image by its' id
-    
-    
+5. docker rm -f {container_id} -> force remove container by its' id
+6. docker rmi {image_id} -> remove image by its' id
+7. docker rmi -f {image_id} -> force remove image by its' id
+8. docker inspect {id} -> reports about something which has id = {id}  
+  
 ````
 
